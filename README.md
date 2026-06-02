@@ -23,9 +23,6 @@ A full-stack web application to create, manage, and download invoices as PDF. Bu
 | **Auth** | JSON Web Tokens (JWT), bcrypt |
 | **Deployment** | Vercel (Frontend), Render (Backend) |
 
-### 📸 Screenshots
-_Add 2-3 screenshots of your app here. Dashboard, Create Invoice page, etc._
-
 ### ⚙️ Local Setup
 1. **Clone the repo:**
    ```bash
