@@ -9,7 +9,13 @@ const invoiceRoutes = require('./routes/invoiceRoutes');
 const app = express();
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: [
+    'http://localhost:5173', 
+    'https://invoice-frontend-chi-three.vercel.app'
+  ],
+  credentials: true
+}));
 app.use(express.json());
 
 // Routes
